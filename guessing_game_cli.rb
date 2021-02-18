@@ -11,6 +11,7 @@ else
   else
     print "Sorry! The computer guessed #{num}."
   end   
+    
     if user_input=="exit"
   p "Goodbye!"
 
