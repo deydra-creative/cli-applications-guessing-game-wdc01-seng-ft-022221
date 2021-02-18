@@ -6,14 +6,16 @@ if user_input == num
   p "You guessed the correct number!"
 else 
   p "Sorry! The computer guessed <number>"
+  
   if user_input == num
     print "You guessed the correct number!"
   else
     print "Sorry! The computer guessed #{num}."
   end   
     
-    if user_input=="exit"
-  print "Goodbye!"
+    
+      if user_input =="exit"
+  p "Goodbye!"
 
 end
 end
