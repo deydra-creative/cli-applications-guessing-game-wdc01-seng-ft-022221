@@ -3,12 +3,12 @@ num = rand(6)+1
 user_input = gets.chomp.to_i
 
 if user_input =="exit"
-  puts "Goodbye!"
+  p "Goodbye!"
 
 if user_input == num
-    puts "You guessed the correct number!"
+    p "You guessed the correct number!"
   else
-    puts "Sorry! The computer guessed #{num}."
+    p "Sorry! The computer guessed #{num}."
   end
 
 end
