@@ -13,7 +13,7 @@ else
   end   
     
     if user_input=="exit"
-  p "Goodbye!"
+  print "Goodbye!"
 
 end
 end
