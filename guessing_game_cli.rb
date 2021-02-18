@@ -4,6 +4,7 @@ user_input = gets.chomp.to_i
 
 if user_input =="exit"
   print "Goodbye!"
+end
 
 if user_input == num
     print "You guessed the correct number!"
