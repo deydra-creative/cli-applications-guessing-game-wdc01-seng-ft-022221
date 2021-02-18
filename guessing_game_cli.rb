@@ -13,4 +13,3 @@ if user_input == num
   end
 
 end
-end
